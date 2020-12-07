@@ -3,7 +3,6 @@
 lib = File.expand_path('lib', __dir__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'numbered_list/version'
-require 'numbered_list/numbered_list'
 
 Gem::Specification.new do |spec|
   spec.name          = 'numbered_list'
